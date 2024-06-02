@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-filmes',
@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './card-filmes.component.css'
 })
 export class CardFilmesComponent {
+  @Input() images: string[] = [];
+
+  constructor(){}
+
+  ngOnInit(): void {
+    
+  }
 
 }

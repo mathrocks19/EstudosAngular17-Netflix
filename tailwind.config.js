@@ -7,8 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif', 'Poppins'],
-        'brush-script': ['Brush Script MT', 'cursive'], // Adicione a fonte Roboto
+        'brush-script': ['Brush Script MT', 'cursive'],
+        'arial': ['Arial', 'sans-serif'],
       },
+
     },
   },
   plugins: [require('flowbite/plugin')],
